@@ -136,12 +136,6 @@ MIT License – Free to use and modify.
 
 ---
 
-## 📬 Contact
-
-* GitHub: your-profile-link
-* Email: [your-email@example.com](mailto:your-email@example.com)
-
----
 
 ## ⭐ Support
 
