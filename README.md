@@ -1,115 +1,154 @@
-# 🤖 Study Buddy AI
+# 🌌 Stellar Index – AI Tools Hub
 
-An AI-powered Study Assistant built using Lovable and Gemini API to help students learn faster, revise smarter, and test their knowledge.
+A modern, fast, and beautifully designed **AI Tools Directory** to discover the best AI tools across multiple categories — all in one place.
+
+👉 **Live Demo:** [https://preview--stellar-index.lovable.app/](https://preview--stellar-index.lovable.app/)
+
+---
+
+## ✨ Overview
+
+**Stellar Index** is a curated hub that helps users quickly find powerful AI tools for productivity, creativity, development, and more — without needing complex APIs or signups.
+
+Built with a clean UI and smooth UX, it’s designed for **students, developers, creators, and AI enthusiasts**.
 
 ---
 
 ## 🚀 Features
 
-* 📄 **Notes Summarization**
+* 🔍 **Smart Search** – Instantly find AI tools
+* 🧠 **Curated Listings** – Only useful and high-quality tools
+* 📂 **Category Filtering** – Browse tools by use-case
+* ⚡ **Fast & Lightweight** – Works smoothly without heavy backend
+* 🎯 **No API Required** – Runs on static data (optional API support)
+* 📱 **Responsive Design** – Works on mobile, tablet, desktop
+* 🌐 **Direct Access** – One-click redirect to official tools
 
-  * Converts long study notes into short, clear bullet points
+---
 
-* ❓ **Quiz Generator**
+## 🧩 Categories Included
 
-  * Automatically generates MCQs with answers and explanations
-
-* 🧠 **Concept Explanation**
-
-  * Explains difficult topics in simple, student-friendly language
-
-* 📊 **Progress-Friendly Design**
-
-  * Clean UI for focused studying
+* ✍️ Writing & Content
+* 🎨 Image Generation
+* 💻 Coding Assistants
+* 🎬 Video & Editing
+* 📊 Productivity
+* 🤖 Chatbots & AI Assistants
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: Lovable Cloud (Edge Functions)
-* AI: Google Gemini API
-* Platform: Lovable
+* **Frontend:** React / Lovable (AI builder)
+* **Styling:** Tailwind CSS
+* **Deployment:** Lovable Hosting / Vercel
+* **Data Source:** Static JSON (No API needed)
 
 ---
 
-## ⚙️ How It Works
+## 📁 Project Structure
 
-1. User enters study notes or topic
-2. Request is sent to backend API
-3. Backend calls Gemini API
-4. AI processes input and generates response
-5. Output is displayed in the UI
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` or add in Lovable Cloud:
-
-GEMINI_API_KEY=your_api_key_here
-
----
-
-## 🧪 Example Use Cases
-
-* Summarize Physics chapters for JEE
-* Generate quizzes for revision
-* Understand complex concepts easily
+```
+stellar-index/
+│── public/
+│── src/
+│   ├── components/
+│   ├── data/          # AI tools data
+│   ├── pages/
+│   ├── App.js
+│   └── main.jsx
+│── package.json
+│── README.md
+```
 
 ---
 
-## 📸 Screenshots
+## ⚙️ Getting Started
 
-(Add screenshots here)
-
----
-
-## 📦 Installation (Local Setup)
+### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/study-buddy-ai.git
-cd study-buddy-ai
+git clone https://github.com/your-username/stellar-index.git
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
+
+### 3. Run locally
+
+```bash
 npm run dev
 ```
 
 ---
 
-## 🌐 Live Demo
+## 🔑 API Usage (Optional)
 
-(Add your Lovable live link here)
+This project is designed to **work without any API**.
+
+However, you can extend it using:
+
+* OpenAI API
+* RapidAPI AI services
+* Custom backend
+
+Add your API key in `.env` if needed:
+
+```
+VITE_API_KEY=your_api_key_here
+```
 
 ---
 
-## 📈 Future Improvements
+## 🎯 Use Cases
 
-* 📄 PDF upload support
-* 📊 Progress tracking dashboard
-* 🔐 User authentication
-* 🧠 Personalized learning recommendations
+* Discover new AI tools
+* Build your own AI stack
+* Save time searching for tools
+* Learn about trending AI products
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork this repo and improve it.
+Want to improve Stellar Index?
+
+1. Fork the repo
+2. Create a branch (`feature/new-tool`)
+3. Add your changes
+4. Submit a Pull Request
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+MIT License – Free to use and modify.
 
 ---
 
-## 🙌 Acknowledgements
+## 🙌 Credits
 
-* Google Gemini API
-* Lovable AI platform
+* Built using **Lovable AI Builder**
+* Inspired by the growing AI ecosystem
 
 ---
 
-## ⭐ Show Your Support
+## 📬 Contact
 
-If you like this project, give it a ⭐ on GitHub!
+* GitHub: your-profile-link
+* Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+👉 Give it a star on GitHub
+👉 Share it with friends
+👉 Contribute new AI tools
+
+---
